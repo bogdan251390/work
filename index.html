@@ -1,352 +1,100 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="css/style.min.css">
-
-
-	<title>ViPro</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ЖК Мелодия</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-   <div class="header__top top-header">
-      <div class="top-header__content _container">
-         <div class="top-header__column_logo">
-            <div class="top-header__logo">
-               <a href="#"><img src="img/vippro_logo_white.png" alt="Логотип"></a>
-            </div>
-         </div>
-         <div class="top-header__column top-header__column_two">
-            <div class="top-header__contacts contacts-header">
-               <div data-da=".menu__list,767,last" class="contacts-header__number">
-                  <a href="" class="contacts-header__link">8 800 999-99-99</a>
-                  <a href="" class="contacts-header__active">Звоните нам</a>
-               </div>
-               <div class="contacts-header__data">
-                  <div class="contacts-header__watch">Часы работы</div>
-                  <div class="contacts-header__time">Пн-Вс: 9:00 - 21:00</div>
-               </div>
-            </div>
-         </div>
-         <div class="top-header__column">
-            <button id="popup" class="button top-header__button popup-link">Связаться со специалистом</button>
+   <header class="header">
+      <div class="navbar">
+         <a href="#" class="logo-link">
+            <img src="img/logo.svg" alt="">
+         </a>
+         <nav class="navbar-nav">
+            <ul class="navbar-menu">
+               <li><a href="#" class="navbar-menu__link">Подобрать квартиру</a></li>
+               <li><a href="#" class="navbar-menu__link">Забронировать квартиру</a></li>
+               <li><a href="#" class="navbar-menu__link">Ход строительства</a></li>
+               <li><a href="#" class="navbar-menu__link">Проектная декларация</a></li>
+            </ul>
+         </nav>
+         <div class="navbar-contacts">
+            <div class="navbar-contacts__descr">Закажите звонок:</div>
+            <a href="#" class="navbar-contacts__phone">8 (843) 123-45-67</a>
          </div>
       </div>
-   </div>
-   <div class="header__bottom bottom-header">
-      <div class="bottom-header__container _container">
-         <div class="bottom-header__menu">
-            <div class="icon-menu">
-               <span></span>
-               <span></span>
-               <span></span>
-            </div>
-            <nav class="menu__body">
-               <ul class="menu__list">
-                  <li><a href="#about" class="menu__link">О КОМПАНИИ</a></li>
-                  <li><a href="#works" class="menu__link">УСЛУГИ</a></li>
-                  <li><a href="#project" class="menu__link">ПРОЕКТЫ</a></li>
-                  <li><a href="#contacts" class="menu__link">КОНТАКТЫ</a></li>
-               </ul>
-            </nav>
-         </div>
+   </header>
+   <main class="main">
+      <div class="main-image">
+         <svg class="home-image" width="734" height="640" viewBox="0 0 734 640" fill="none"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="734" height="640" fill="url(#pattern0)" />
+            <defs>
+               <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0" transform="translate(-0.00408719) scale(0.0013624 0.0015625)" />
+               </pattern>
+               <image id="image0" width="740" height="640" xlink:href="img/home.png" />
+            </defs>
+            <path data-floor="02" d="M222 532L442.8 540L512 526.3V548L443.5 567.7L222 556.7V532Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="03" d="M223 531V506L443.3 509.3L513 506V526L443.7 539L223 531Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="04" d="M223 505V480H444H513V503L445 510L223 505Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-floor="05" d="M223 481V456L444.3 452.3L512 459V481H444" fill="#3595F6" fill-opacity="0.75" />
+            <path data-floor="06" d="M223 455V429L444.5 425.7L513 436.7V458L444 451.3L223 455Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="07" d="M222 428V404.3L443 392L514 415V436.3L443 424L222 428Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="08" d="M222 406V381L444.2 364.7L514 393.3V414L443.7 392.3L222 406Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="09" d="M222 381V356L444.5 335.7L514 372.3V393L442 364.3L222 381Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="10" d="M222 355V331L445 306.3L514 350.3V372L444.7 334L222 355Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="11" d="M222 330V306L444.5 277.3L514 328.3V349L443.7 306.7L222 330Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="12" d="M221 306V282L443.3 249L514 308.3V328L444 277.3L221 306Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="13" d="M222 281V257L443.2 222L513 286V307L444.3 248.7L222 281Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="14" d="M222 257V232L444.3 194L513 264.3V285L444 221L222 257Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="15" d="M222 231V206L442.8 162.3L513 241.3V264L444 190.7L222 231Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="16" d="M223 207V182L443 134L513 219V242L442.3 162.7L223 207Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="17" d="M222 182V157L441.8 105L513 197.3V220L443.3 133.7L222 182Z" fill="#3595F6"
+               fill-opacity="0.75" />
+            <path data-floor="18" d="M222 157V131L444 74.3L513 176V197L443.7 105.3L222 157Z" fill="#3595F6"
+               fill-opacity="0.75" />
+         </svg>
       </div>
-   </div>
-</header>
-		<section class="hero">
-			<div class="hero__container swiper-container">
-				<div class="swiper-wrapper">
-					<div class="hero__slide swiper-slide">
-						<div class="hero__content _container">
-							<h1 class="hero__title">ДЕТЕЙЛИНГ ЦЕНТР <br> и кузовной ремонт</h1>
-							<p class="hero__subtitle">Работаем с автомобилями с 2011 года</p>
-						</div>
-					</div>
-					<div class="hero__slide swiper-slide">
-						<div class="hero__content _container">
-							<h1 class="hero__title">ДЕТЕЙЛИНГ ЦЕНТР <br> и кузовной ремонт</h1>
-							<p class="hero__subtitle">Работаем с автомобилями с 2011 года</p>
-						</div>
-					</div>
-				</div>
-				<div class="hero__contol">
-					<div class="arrow-right"></div>
-					<div class="arrow-next"></div>
-				</div>
-			</div>
-		</section>
-		<section id="works" class="works">
-			<div class="works__container _container">
-				<div class="works__block block-works">
-					<div class="block-works__column" data-aos="fade-right">
-						<div class="block-works__item item-work">
-							<img src="img/works/1.jpg" alt="">
-							<h2 class="item-work__title">кузовные работы</h2>
-							<button class="item-work__button">Подробнее <span></span></button>
-						</div>
-					</div>
-					<div class="block-works__column" data-aos="fade-left">
-						<div class="block-works__item item-work">
-							<img src="img/works/2.jpg" alt="">
-							<h2 class="item-work__title">покраска авто в камере</h2>
-							<button class="item-work__button">Подробнее<span></span></button>
-						</div>
-					</div>
-					<div class="block-works__column" data-aos="fade-right">
-						<div class="block-works__item item-work">
-							<img src="img/works/3.jpg" alt="">
-							<h2 class="item-work__title">Полировка фар</h2>
-							<button class="item-work__button">Подробнее<span></span></button>
-						</div>
-					</div>
-					<div class="block-works__column" data-aos="fade-left">
-						<div class="block-works__item item-work">
-							<img src="img/works/4.jpg" alt="">
-							<h2 class="item-work__title">Реставрация и покраска дисков</h2>
-							<button class="item-work__button">Подробнее<span></span></button>
-						</div>
-					</div>
-					<div class="block-works__column" data-aos="fade-right">
-						<div class="block-works__item item-work">
-							<img src="img/works/5.jpg" alt="">
-							<h2 class="item-work__title">Полировка ВСТАВОК САЛОНА</h2>
-							<button class="item-work__button">Подробнее<span></span></button>
-						</div>
-					</div>
-					<div class="block-works__column" data-aos="fade-left">
-						<div class="block-works__item item-work">
-							<img src="img/works/6.jpg" alt="">
-							<h2 class="item-work__title">Детейлинг-мойка автомобиля</h2>
-							<button class="item-work__button">Подробнее<span></span></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="about" class="about">
-			<div class="about__container _container">
-				<h2 class="section-title">О КОМПАНИИ</h2>
-				<div class="about__block block-about">
-					<div class="block-about__images">
-						<img data-aos="zoom-in" class="block-about__image-s" src="img/about/1.jpg" alt="">
-						<img data-aos="zoom-in" class="block-about__image-a" src="img/about/2.jpg" alt="">
-						<img data-aos="zoom-in" class="block-about__image-b" src="img/about/3.jpg" alt="">
-					</div>
-					<div class="block-about__text">
-						<p><span>"VipPro" — Старейший Детейлинг-Центр В Новосибирске (Carnano.Ru)</span> При наличии этих
-							составляющих в
-							определенной последовательности можно достигнуть достойного результата! Имея квалифицированного
-							специалиста, знающего технологию процессов мойки, полировки, химчистки состав и специализацию
-							средств авто химии, Вы на пол пути к успеху.
-							Другие важные составляющие - это качество, безопасность и эффективность применяемых средств авто
-							химии. Современные автомобили состоят из различных материалов отделки экстерьера и интерьера; хром,
-							пластик, лак, кожа, дерево, алюминий, текстиль и т.д. для поддержания которых в первозданном,
-							презентабельном виде, продлении им срока службы требуется правильный уход и защита. Однако всегда
-							есть одно "но". Можно иметь квалифицированного специалиста и качественную авто химию, но не иметь
-							желания быть преданным своему делу, не любить автомобили, соответственно, никогда не достигнуть
-							достойного качества, результата и признания от клиентов-владельцев своих авто.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="project" class="project">
-			<div class="project__block-title">
-				<h2 class="project__titles">ПРОЕКТЫ</h2>
-			</div>
-			<div class="project__row _container">
-				<div class="project__container swiper-container">
-					<div class="swiper-wrapper">
-						<div class="project__slide swiper-slide">
-							<div class="slide-project__item">
-								<div class="slide-project__image">
-									<img src="img/works/1.jpg" alt="">
-								</div>
-								<div class="slide-project__footer">
-									<button class="button slide-project__buton">Подробнее</button>
-								</div>
-							</div>
-						</div>
-						<div class="project__slide swiper-slide">
-							<div class="slide-project__item">
-								<div class="slide-project__image">
-									<img src="img/works/1.jpg" alt="">
-								</div>
-								<div class="slide-project__footer">
-									<button class="button slide-project__buton">Подробнее</button>
-								</div>
-							</div>
-						</div>
-						<div class="project__slide swiper-slide">
-							<div class="slide-project__item">
-								<div class="slide-project__image">
-									<img src="img/works/1.jpg" alt="">
-								</div>
-								<div class="slide-project__footer">
-									<button class="button slide-project__buton">Подробнее</button>
-								</div>
-							</div>
-						</div>
-						<div class="project__slide swiper-slide">
-							<div class="slide-project__item">
-								<div class="slide-project__image">
-									<img src="img/works/1.jpg" alt="">
-								</div>
-								<div class="slide-project__footer">
-									<button class="button slide-project__buton">Подробнее</button>
-								</div>
-							</div>
-						</div>
-						<div class="project__slide swiper-slide">
-							<div class="slide-project__item">
-								<div class="slide-project__image">
-									<img src="img/works/1.jpg" alt="">
-								</div>
-								<div class="slide-project__footer">
-									<button class="button slide-project__buton">Подробнее</button>
-								</div>
-							</div>
-						</div>
-						<div class="project__slide swiper-slide">
-							<div class="slide-project__item">
-								<div class="slide-project__image">
-									<img src="img/works/1.jpg" alt="">
-								</div>
-								<div class="slide-project__footer">
-									<button class="button slide-project__buton">Подробнее</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<div class="hero__contol">
-					<div class="arrow-rightes"></div>
-					<div class="arrow-nextes"></div>
-				</div>
-			</div>
-		</section>
-		<section id="contacts" class="contacts">
-			<div class="contacts__container _container">
-				<div class="contacts__text">
-					<h2 class="contacts__title">Контакты</h2>
-				</div>
-				<div class="contacts__block block-contacts">
-					<div class="block-contacts__map" data-aos="zoom-out-left">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2288.3712724956613!2d82.95577581623665!3d55.0016566803592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe617c9dac523%3A0x9ed285aa9bddd1d8!2z0YPQuy4g0JHQvtC70YzRiNC10LLQuNGB0YLRgdC60LDRjywgMTI1LCDQndC-0LLQvtGB0LjQsdC40YDRgdC6LCDQndC-0LLQvtGB0LjQsdC40YDRgdC60LDRjyDQvtCx0LsuLCA2MzAwODM!5e0!3m2!1sru!2sru!4v1620214411832!5m2!1sru!2sru"
-							width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-					</div>
-					<div class="block-contacts__info info-contacts">
-						<img src="img/contacts/contacts_bg.jpg" alt="" class="info-contacts__image-bg">
-						<div class="info-contacts__logo">
-							<img src="img/vippro_logo_white.png" alt="">
-						</div>
-						<div class="info-contacts__text">
-							<div class="info-contacts__addres">
-								<h3 class="info-contacts__title">Aдрес</h3>
-								<p class="info-contacts__subtitle">ул. Большевистская 125/6, г.Новосибирск</p>
-							</div>
-							<div class="info-contacts__addres">
-								<h3 class="info-contacts__title">Телефон</h3>
-								<a href="#" class="info-contacts__link">+7 (383) 299-76-48</a>
-								<a href="#" class="info-contacts__link">+7 (383) 299-76-48<span>(тех.поддержка)</span></a>
-
-
-							</div>
-							<div class="info-contacts__addres">
-								<h3 class="info-contacts__title">E-mail</h3>
-								<a href="#" class="info-contacts__link">nsk@carnano.ru</a>
-							</div>
-							<div class="info-contacts__addres">
-								<h3 class="info-contacts__title">Реквизиты</h3>
-								<p class="info-contacts__subtitle">ИНН 6162069085 КПП 616201001 <br>ОГРН 1156196042991</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="form">
-			<div class="form__container _container">
-				<h2 data-aos="fade-down" class="form__title">Остались вопросы? <br> Ответим на вопрос в течение 15 минут
-				</h2>
-				<form class="form__content" action="#">
-					<div class="form__inputs">
-						<input data-aos="fade-left" type="text" class="form__input" placeholder="Ваш вопрос:" name="name"
-							required>
-						<input data-aos="fade-right" type="tel" class="form__input" placeholder="Телефон" name="tel" required>
-					</div>
-					<button class="button form__button">ОСТАВИТЬ ЗАЯВКУ</button>
-				</form>
-			</div>
-		</section>
-		<footer class="footer">
-   <div class="footer__container _container">
-      <div class="footer__top">
-         <div class="footer__column footer__column_logo">
-            <div class="footer__logo">
-               <img src="img/vippro_logo_white.png" alt="Логотип">
-            </div>
-            <div class="footer__data">
-               <p>ИНН 6162069085 КПП 616201001
-                  ОГРН 1156196042991</p>
-            </div>
+      <div class="main-info">
+         <h2 class="main-title">Выберите желаемый этаж</h2>
+         <div class="counter-group">
+            <button class="counter-button counter-up">
+               <img src="img/arrow.svg" alt="arrow">
+            </button>
+            <span class="counter">02</span>
+            <button class="counter-button counter-down">
+               <img src="img/arrow.svg" alt="arrow">
+            </button>
          </div>
-         <div class="footer__column footer__column_two">
-            <nav class="footer__menu">
-               <ul class="footer__list">
-                  <li><a href="#about" class="footer__li">О компании</a></li>
-                  <li><a href="#works" class="footer__li">Услуги</a></li>
-                  <li><a href="#project" class="footer__li">Проекты</a></li>
-                  <li><a href="#contacts" class="footer__li">Контакты</a></li>
-               </ul>
-            </nav>
-         </div>
-         <div class="footer__column footer__column_three">
-            <a href="" class="footer__link">8 800 999-99-99</a>
-            <a href="" class="footer__link">8 800 999-99-99</a>
-            <p>тех.поддержка</p>
-            <button class="footer__button">Связаться со специалистом</button>
-            <a href="" class="footer__link"><span>e-mail:</span>nsk@carnano.ru</a>
-         </div>
+         <button class="button-primary">Смотреть квартиры на этаже</button>
       </div>
-   </div>
-   <div class="footer__buttom">
-      <a href="" class="footer__policy">политика конфиденциальности</a>
-   </div>
-</footer>
-
-		<div id="popup" class="popup">
-			<div class="popup__body">
-				<div class="popup__content">
-					<a href="#header" class="popup__close">&times</a>
-					<div class="popup__image">
-						<img src="img/popup/popup-1.jpg" alt="">
-					</div>
-					<form action="#" class="popup__form form">
-						<h3 class="form__title popup__title">Форма заявки</h3>
-						<p class="form__subtitle popup__subtitle">Подзаголовок заявки</p>
-						<input class="form__input popup__input" type="text" name="name" required placeholder="Полное Имя">
-						<input class="form__input popup__input" type="tel" name="tel" required placeholder="Номер телефона">
-						<input class="form__input popup__input" type="text" placeholder="E-mail">
-						<button class="button form__button popup__button">Отправить</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script src="js/script.js"></script>
-
-
+   </main>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="js/script.js"></script>
 </body>
 
 </html>
